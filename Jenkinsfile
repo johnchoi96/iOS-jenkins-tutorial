@@ -3,7 +3,7 @@ pipeline {
 
     triggers {
         githubPullRequest {
-            orgWhitelist(['your-github-username'])
+            orgWhitelist(['johnchoi96'])
             allowMembersOfWhitelistedOrgsAsAdmin()
         }
     }
