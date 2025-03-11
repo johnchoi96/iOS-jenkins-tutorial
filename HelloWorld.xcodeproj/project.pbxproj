@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D291C7002D7FDEF500555423 /* Jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = D291C6FF2D7FDEF500555423 /* Jenkinsfile */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D291C6E32D7FDB5800555423 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		D291C6D22D7FDB5600555423 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D291C6E22D7FDB5800555423 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D291C6EC2D7FDB5800555423 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D291C6FF2D7FDEF500555423 /* Jenkinsfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		D291C6C92D7FDB5600555423 = {
 			isa = PBXGroup;
 			children = (
+				D291C6FF2D7FDEF500555423 /* Jenkinsfile */,
 				D291C6D42D7FDB5600555423 /* HelloWorld */,
 				D291C6E52D7FDB5800555423 /* HelloWorldTests */,
 				D291C6EF2D7FDB5800555423 /* HelloWorldUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D291C7002D7FDEF500555423 /* Jenkinsfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
